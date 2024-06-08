@@ -1,0 +1,16 @@
+Predition URL: https://myazurebot.cognitiveservices.azure.com/language/:query-knowledgebases?projectName=MyAzureBot&api-version=2021-10-01&deploymentName=production
+
+Sample Request:
+curl -X POST 
+"https://myazurebot.cognitiveservices.azure.com/language/:query-
+knowledgebases?projectName=MyAzureBot&api-version=2021
+-10-01&deploymentName=production" -H "Ocp-Apim-Subscription-Key: 
+e7e38469f70b410ba662bd1338e94616" -H "Content-Type: application/json" -
+d "
+{\"top\":3,\"question\":\"YOUR_QUESTION_HERE\",\"includeUnstructuredSources
+\":true,\"confidenceScoreThreshold\":\"YOUR_SCORE_THRESHOLD_HERE\",
+\"answerSpanRequest\"
+:{\"enable\":true,\"topAnswersWithSpan\":1,\"confidenceScoreThreshold\":\"YOUR_SCORE_THRESHOLD_HERE\"},
+\"filters\":{\"metadataFilter\":
+{\"logicalOperation\":\"YOUR_LOGICAL_OPERATION_HERE\",\"metadata\":
+[{\"key\":\"YOUR_ADDITIONAL_PROP_KEY_HERE\",\"value\":\"YOUR_ADDITIONAL_PROP_VALUE_HERE\"}]}}}"
