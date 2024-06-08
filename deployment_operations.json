@@ -1,0 +1,52 @@
+[
+  {
+    "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.Resources/deployments/Microsoft.Template-20240608173222/operations/8939CE7219DF6584",
+    "operationId": "8939CE7219DF6584",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Running",
+      "timestamp": "2024-06-08T12:13:18.7925742Z",
+      "duration": "PT10M36.1852793S",
+      "trackingId": "d8776f40-8e85-4259-82ac-1b19cc666de7",
+      "statusCode": "BadGateway",
+      "statusMessage": {
+        "status": "Failed",
+        "error": {
+          "code": "Forbidden",
+          "message": "The subscription '7f6c37bc-99da-4627-b024-c5364f28b17a' is not allowed to create or update the serverfarm.",
+          "details": [
+            {
+              "message": "The subscription '7f6c37bc-99da-4627-b024-c5364f28b17a' is not allowed to create or update the serverfarm."
+            },
+            {
+              "code": "Forbidden"
+            },
+            {}
+          ]
+        }
+      },
+      "targetResource": {
+        "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.Web/serverfarms/MyAzureBot-serverfarm-1d0663",
+        "resourceType": "Microsoft.Web/serverfarms",
+        "resourceName": "MyAzureBot-serverfarm-1d0663"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.Resources/deployments/Microsoft.Template-20240608173222/operations/A12EF812D1858AFA",
+    "operationId": "A12EF812D1858AFA",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-06-08T12:02:49.6738428Z",
+      "duration": "PT7.0665479S",
+      "trackingId": "ca83c3ce-9473-4951-af38-6f59750ff77f",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.ManagedIdentity/userAssignedIdentities/MyAzure-bot",
+        "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "resourceName": "MyAzure-bot"
+      }
+    }
+  }
+]

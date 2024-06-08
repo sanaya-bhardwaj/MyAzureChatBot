@@ -1,0 +1,212 @@
+{
+  "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.Resources/deployments/Microsoft.Template-20240608173222",
+  "name": "Microsoft.Template-20240608173222",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateLink": {
+      "uri": "https://dev.botframework.com/api/custom/template",
+      "contentVersion": "1.0.0.0"
+    },
+    "templateHash": "4462257729060078624",
+    "parameters": {
+      "botId": {
+        "type": "String",
+        "value": "MyAzure-bot"
+      },
+      "location": {
+        "type": "String",
+        "value": "global"
+      },
+      "sku": {
+        "type": "String",
+        "value": "S1"
+      },
+      "siteName": {
+        "type": "String",
+        "value": "MyAzure-bot"
+      },
+      "appServiceLocation": {
+        "type": "String",
+        "value": ""
+      },
+      "appId": {
+        "type": "String",
+        "value": ""
+      },
+      "tenantId": {
+        "type": "String",
+        "value": ""
+      },
+      "resourceId": {
+        "type": "String",
+        "value": ""
+      },
+      "sdkLanguage": {
+        "type": "String",
+        "value": "C#"
+      },
+      "serverFarmId": {
+        "type": "String",
+        "value": ""
+      },
+      "qnAKnowledgebaseId": {
+        "type": "String",
+        "value": ""
+      },
+      "qnAEndpointKey": {
+        "type": "String",
+        "value": ""
+      },
+      "languageResourceKey": {
+        "type": "String",
+        "value": "e7e38469f70b410ba662bd1338e94616"
+      },
+      "qnAEndpointHostName": {
+        "type": "String",
+        "value": ""
+      },
+      "projectName": {
+        "type": "String",
+        "value": "MyAzureBot"
+      },
+      "languageEndpointHostName": {
+        "type": "String",
+        "value": "https://MyAzureBot.cognitiveservices.azure.com"
+      },
+      "createNewApp": {
+        "type": "Bool",
+        "value": true
+      },
+      "createServerFarm": {
+        "type": "Bool",
+        "value": true
+      },
+      "serverFarmSku": {
+        "type": "Object",
+        "value": {
+          "name": "S1",
+          "tier": "Standard",
+          "size": "S1",
+          "family": "S",
+          "capacity": 1
+        }
+      },
+      "serverFarmName": {
+        "type": "String",
+        "value": "MyAzureBot-serverfarm-1d0663"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2024-06-08T12:13:18.7175291Z",
+    "duration": "PT10M41.440265S",
+    "correlationId": "19b0445d-7f03-48cf-85c2-12e4a5459d23",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "serverfarms",
+            "locations": [
+              "eastus"
+            ]
+          },
+          {
+            "resourceType": "sites",
+            "locations": [
+              "eastus"
+            ]
+          },
+          {
+            "resourceType": "sites/Extensions",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.ManagedIdentity",
+        "resourceTypes": [
+          {
+            "resourceType": "userAssignedIdentities",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.BotService",
+        "resourceTypes": [
+          {
+            "resourceType": "botServices",
+            "locations": [
+              "global"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.ManagedIdentity/userAssignedIdentities/MyAzure-bot",
+            "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+            "resourceName": "MyAzure-bot"
+          },
+          {
+            "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.Web/serverfarms/MyAzureBot-serverfarm-1d0663",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "MyAzureBot-serverfarm-1d0663"
+          }
+        ],
+        "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.Web/sites/MyAzure-bot",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "MyAzure-bot"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.Web/sites/MyAzure-bot",
+            "resourceType": "Microsoft.Web/sites",
+            "resourceName": "MyAzure-bot"
+          }
+        ],
+        "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.Web/sites/MyAzure-bot/Extensions/MSDeploy",
+        "resourceType": "Microsoft.Web/sites/Extensions",
+        "resourceName": "MyAzure-bot/MSDeploy"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.ManagedIdentity/userAssignedIdentities/MyAzure-bot",
+            "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+            "resourceName": "MyAzure-bot"
+          },
+          {
+            "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.Web/sites/MyAzure-bot",
+            "resourceType": "Microsoft.Web/sites",
+            "resourceName": "MyAzure-bot"
+          },
+          {
+            "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.Web/sites/MyAzure-bot/Extensions/MSDeploy",
+            "resourceType": "Microsoft.Web/sites/Extensions",
+            "resourceName": "MyAzure-bot/MSDeploy"
+          }
+        ],
+        "id": "/subscriptions/7f6c37bc-99da-4627-b024-c5364f28b17a/resourceGroups/LanguageBot/providers/Microsoft.BotService/botServices/MyAzure-bot",
+        "resourceType": "Microsoft.BotService/botServices",
+        "resourceName": "MyAzure-bot"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "marketplaceItemId": "Microsoft.Template"
+  }
+}

@@ -1,0 +1,11 @@
+﻿NAME,TYPE,RESOURCE GROUP,LOCATION,SUBSCRIPTION
+MyAzure-bot,Managed Identity,languagebot,East US,Free Trial
+MyAzureBot,Language,languagebot,East US,Free Trial
+MyAzureBot,DDoS protection plan,languagebot,East US,Free Trial
+MyAzureBot,Virtual network,languagebot,East US,Free Trial
+myazurebot-aswhpaqtklawaeg,Search service,languagebot,East US,Free Trial
+MyAzureBot-Bastion,Bastion,languagebot,East US,Free Trial
+myazurebot-bastion,Public IP address,languagebot,East US,Free Trial
+MyAzureBot-Firewall,Firewall,languagebot,East US,Free Trial
+myazurebot-firewall,Public IP address,languagebot,East US,Free Trial
+NetworkWatcher_eastus,Network Watcher,networkwatcherrg,East US,Free Trial
