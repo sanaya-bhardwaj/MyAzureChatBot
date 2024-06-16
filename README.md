@@ -12,7 +12,7 @@ The bot leverages Azure's powerful language understanding capabilities to intera
 
 # Features and Functions
 
-**Conversational AI and QnA Maker**
+**---Conversational AI and QnA Maker---**
 
 **Natural Language Understanding**: Utilizes Microsoft Azure Language Services to understand and process natural language inputs, making interactions seamless and intuitive.
 
@@ -20,7 +20,7 @@ The bot leverages Azure's powerful language understanding capabilities to intera
 
 **Customizable Response**: Offers customization of bot responses, conversation flows, and user-specific needs.
 
-**Azure Bot Services** 
+**---Azure Bot Services---** 
 
 **Scalability and Management**: Provides a managed platform for developing and deploying ChatBots, ensuring efficient handling of varying loads.
 
