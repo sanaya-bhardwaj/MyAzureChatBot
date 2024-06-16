@@ -28,6 +28,29 @@ The bot leverages Azure's powerful language understanding capabilities to intera
 
 **Developer Tools**: Includes rich development tools and templates, facilitating rapid development, testing, and deployment of bots.
 
-#
+# Architecture 
 
-![image](https://github.com/sanaya-bhardwaj/MyAzureChatBot/assets/135012941/628be4a2-a3eb-4a1c-8361-f1fb84cd2dc2)
+![image](https://github.com/sanaya-bhardwaj/MyAzureChatBot/assets/135012941/628be4a2-a3eb-4a1c-8361-f1fb84cd2dc2) 
+
+# Key Features
+
+**Advanced Language Processing**: Utilizes Azure AI Search for precise query responses.
+
+**QnA Maker Integration**: Builds a knowledge base for efficient FAQ handling.
+
+**Customization**: Tailors responses for standardized and consistent communication.
+
+**Time Efficiency**: Provides quick and accurate information retrieval.
+
+**Security**: Uses private endpoints and Azure Application Gateway to secure access.
+
+# Technical Implementation
+
+**Deploy a Bot**: Using Azure Language Services and AI search capabilities.
+
+**Secure Infrastructure**: With private endpoints and Azure Application Gateway for restricted public access.
+
+# Project Significance & Benefits
+
+This project is a key component of my internship, showcasing the practical application of Azure’s advanced AI capabilities in developing a specialized QnA bot.
+A secure, efficient, and customizable bot that improves information access and operational efficiency within Microsoft Teams.
