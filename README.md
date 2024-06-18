@@ -55,7 +55,7 @@ The bot leverages Azure's powerful language understanding capabilities to intera
 This project is a key component of my internship, showcasing the practical application of Azure’s advanced AI capabilities in developing a specialized QnA bot.
 A secure, efficient, and customizable bot that improves information access and operational efficiency within Microsoft Teams.
 
-## Video
+# Video
 
 https://github.com/sanaya-bhardwaj/MyAzureChatBot/assets/135012941/97ad9f2f-b864-4318-b3ec-23072b56d796
 
